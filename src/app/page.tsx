@@ -46,7 +46,7 @@ export default function Home() {
       {test.map((value) => (
         <div className="bg-gray-100  text-primary rounded-md p-4">
           <b>{value.title}</b>
-
+          m
           <hr />
           <b className="uppercase">{value.type}</b>
           <p>{value.duration}</p>
