@@ -45,7 +45,7 @@ export default function Home() {
       <h2>Bahia cross</h2>
       {test.map((value) => (
         <div className="bg-gray-100  text-primary rounded-md p-4">
-          <b>{value.title}</b>
+          <b className="text-3xl">{value.title}</b>
 
           <hr />
           <b className="uppercase">{value.type}</b>
