@@ -9,17 +9,17 @@ export default function Home() {
   return (
     <MainLayout>
       <Provider>
-        <div className="">
-          {blocks.map((day) => (
-            <div className=" rounded-md my-2 ">
+        <h2 className="text-3xl">Bahia cross</h2>
+        <div className="space-y-24">
+          {blocks.map((block) => (
+            <div className=" rounded-md my-2  ">
               <section className="font-bold rounded-t-md  flex justify-between ">
-                <h2>Bahia cross</h2>
                 <div>
-                  <span> {new Date(day.day).toLocaleDateString()}</span>
+                  <span> {new Date(block.day).toDateString()}</span>
                 </div>
               </section>
               <div className=" flex items-start   gap-4">
-                {day.wods.map((wod) => (
+                {block.wods.map((wod) => (
                   <div className="w-full  py-2 rounded-md  bg-white">
                     <div className=" uppercase flex justify-center text-primary font-bold p-2">
                       <h2 className="text-xl">{wod.title}</h2>

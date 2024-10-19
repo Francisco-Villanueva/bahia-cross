@@ -6,7 +6,7 @@ export const blocks: IBlock[] = [
     day: new Date("2024-10-01").toISOString(),
     wods: [
       {
-        id: "wod11",
+        id: "wod1",
         title: "oly",
         works: [
           {
@@ -38,31 +38,31 @@ export const blocks: IBlock[] = [
       },
       {
         title: "wod",
-        id: "wod12",
+        id: "wod2",
         works: [
           {
-            id: "work1",
+            id: "work3",
             title: "amrap",
             time: 12,
             exercices: [
-              { id: "ex1", name: "Pull Ups", reps: 10 },
-              { id: "ex2", name: "Push Ups", reps: 20 },
-              { id: "ex3", name: "Air Squats", reps: 30 },
+              { id: "ex6", name: "Chin Ups", reps: 10 },
+              { id: "ex7", name: "Dips", reps: 20 },
+              { id: "ex8", name: "Lunges", reps: 30 },
             ],
           },
           {
-            id: "rest1",
+            id: "rest2",
             title: "rest",
             time: 3,
             exercices: [],
           },
           {
-            id: "work2",
+            id: "work4",
             title: "otm",
             time: 10,
             exercices: [
-              { id: "ex4", name: "Deadlift", reps: 5 },
-              { id: "ex5", name: "Box Jump", reps: 10 },
+              { id: "ex9", name: "Sumo Deadlift", reps: 5 },
+              { id: "ex10", name: "Box Step-ups", reps: 10 },
             ],
           },
         ],
@@ -75,52 +75,61 @@ export const blocks: IBlock[] = [
     wods: [
       {
         title: "oly",
-        id: "wod2",
+        id: "wod3",
         works: [
           {
-            id: "work3",
+            id: "work5",
             title: "for time",
             time: 15,
             exercices: [
-              { id: "ex6", name: "Snatch", reps: 12 },
-              { id: "ex7", name: "Burpees", reps: 15 },
-              { id: "ex8", name: "Toes to Bar", reps: 10 },
+              { id: "ex11", name: "Snatch", reps: 12 },
+              { id: "ex12", name: "Burpees", reps: 15 },
+              { id: "ex13", name: "Toes to Bar", reps: 10 },
             ],
           },
           {
-            id: "rest2",
+            id: "rest3",
             title: "rest",
             time: 5,
             exercices: [],
+          },
+          {
+            id: "work6",
+            title: "ot3m",
+            time: 15,
+            exercices: [
+              { id: "ex14", name: "Power Snatch", reps: 2 },
+              { id: "ex15", name: "Chest to Bar Pull-Ups", reps: 3 },
+            ],
           },
         ],
       },
       {
         title: "wod",
-        id: "wod3",
+        id: "wod4",
         works: [
           {
-            id: "work4",
+            id: "work7",
             title: "ot3m",
             time: 9,
             exercices: [
-              { id: "ex9", name: "Clean & Jerk", reps: 3 },
-              { id: "ex10", name: "Wall Ball", reps: 15 },
+              { id: "ex16", name: "Clean & Jerk", reps: 3 },
+              { id: "ex17", name: "Wall Ball Shots", reps: 15 },
             ],
           },
           {
-            id: "rest2",
+            id: "rest4",
             title: "rest",
             time: 2,
             exercices: [],
           },
           {
-            id: "work4",
+            id: "work8",
             title: "ot3m",
             time: 9,
             exercices: [
-              { id: "ex9", name: "Clean & Jerk", reps: 3 },
-              { id: "ex10", name: "Wall Ball", reps: 15 },
+              { id: "ex18", name: "Power Clean & Push Jerk", reps: 3 },
+              { id: "ex19", name: "Medicine Ball Cleans", reps: 15 },
             ],
           },
         ],
@@ -133,52 +142,61 @@ export const blocks: IBlock[] = [
     wods: [
       {
         title: "oly",
-        id: "wod4",
+        id: "wod5",
         works: [
           {
-            id: "work5",
+            id: "work9",
             title: "for time",
             time: 20,
             exercices: [
-              { id: "ex11", name: "Clean", reps: 10 },
-              { id: "ex12", name: "Handstand Push-Ups", reps: 12 },
-              { id: "ex13", name: "Kettlebell Swings", reps: 15 },
+              { id: "ex20", name: "Clean", reps: 10 },
+              { id: "ex21", name: "Handstand Push-Ups", reps: 12 },
+              { id: "ex22", name: "Kettlebell Swings", reps: 15 },
             ],
           },
           {
-            id: "rest3",
+            id: "rest5",
             title: "rest",
             time: 4,
             exercices: [],
+          },
+          {
+            id: "work10",
+            title: "ot3m",
+            time: 15,
+            exercices: [
+              { id: "ex23", name: "Hang Power Snatch", reps: 2 },
+              { id: "ex24", name: "Ring Muscle-Ups", reps: 3 },
+            ],
           },
         ],
       },
       {
         title: "wod",
-        id: "wod5",
+        id: "wod6",
         works: [
           {
-            id: "work6",
+            id: "work11",
             title: "ot2m",
             time: 10,
             exercices: [
-              { id: "ex14", name: "Thrusters", reps: 5 },
-              { id: "ex15", name: "Chest-to-Bar Pull-Ups", reps: 7 },
+              { id: "ex25", name: "Thrusters", reps: 5 },
+              { id: "ex26", name: "Chest-to-Bar Pull-Ups", reps: 7 },
             ],
           },
           {
-            id: "rest4",
+            id: "rest6",
             title: "rest",
             time: 3,
             exercices: [],
           },
           {
-            id: "work7",
+            id: "work12",
             title: "ot2m",
             time: 10,
             exercices: [
-              { id: "ex16", name: "Overhead Squats", reps: 5 },
-              { id: "ex17", name: "Bar Muscle-Ups", reps: 3 },
+              { id: "ex27", name: "Overhead Squats", reps: 5 },
+              { id: "ex28", name: "Bar Muscle-Ups", reps: 3 },
             ],
           },
         ],
@@ -191,54 +209,64 @@ export const blocks: IBlock[] = [
     wods: [
       {
         title: "oly",
-        id: "wod6",
+        id: "wod7",
         works: [
           {
-            id: "work8",
+            id: "work13",
             title: "amrap",
             time: 18,
             exercices: [
-              { id: "ex18", name: "Power Cleans", reps: 8 },
-              { id: "ex19", name: "Box Jumps", reps: 12 },
-              { id: "ex20", name: "Double-Unders", reps: 50 },
+              { id: "ex29", name: "Power Cleans", reps: 8 },
+              { id: "ex30", name: "Box Jumps", reps: 12 },
+              { id: "ex31", name: "Double-Unders", reps: 50 },
             ],
           },
           {
-            id: "rest5",
+            id: "rest7",
             title: "rest",
             time: 5,
             exercices: [],
+          },
+          {
+            id: "work14",
+            title: "amrap",
+            time: 18,
+            exercices: [
+              { id: "ex32", name: "Hang Power Cleans", reps: 8 },
+              { id: "ex33", name: "Box Jump Overs", reps: 12 },
+              { id: "ex34", name: "Single Unders", reps: 100 },
+            ],
           },
         ],
       },
       {
         title: "wod",
-        id: "wod7",
+        id: "wod8",
         works: [
           {
-            id: "work9",
+            id: "work15",
             title: "time cap",
             time: 15,
             exercices: [
-              { id: "ex21", name: "Deadlifts", reps: 21 },
-              { id: "ex22", name: "Hang Power Cleans", reps: 15 },
-              { id: "ex23", name: "Push Jerks", reps: 9 },
+              { id: "ex35", name: "Deadlifts", reps: 21 },
+              { id: "ex36", name: "Hang Power Cleans", reps: 15 },
+              { id: "ex37", name: "Push Jerks", reps: 9 },
             ],
           },
           {
-            id: "rest6",
+            id: "rest8",
             title: "rest",
             time: 3,
             exercices: [],
           },
           {
-            id: "work10",
+            id: "work16",
             title: "time cap",
             time: 15,
             exercices: [
-              { id: "ex24", name: "Front Squats", reps: 21 },
-              { id: "ex25", name: "Pull-Ups", reps: 15 },
-              { id: "ex26", name: "Shoulder to Overhead", reps: 9 },
+              { id: "ex38", name: "Front Squats", reps: 21 },
+              { id: "ex39", name: "Pull-Ups", reps: 15 },
+              { id: "ex40", name: "Shoulder to Overhead", reps: 9 },
             ],
           },
         ],
@@ -251,51 +279,60 @@ export const blocks: IBlock[] = [
     wods: [
       {
         title: "oly",
-        id: "wod8",
+        id: "wod9",
         works: [
           {
-            id: "work11",
+            id: "work17",
             title: "for time",
             time: 12,
             exercices: [
-              { id: "ex27", name: "Power Snatches", reps: 30 },
-              { id: "ex28", name: "Burpee Box Jump-Overs", reps: 30 },
+              { id: "ex41", name: "Power Snatches", reps: 30 },
+              { id: "ex42", name: "Burpee Box Jump-Overs", reps: 30 },
             ],
           },
           {
-            id: "rest7",
+            id: "rest9",
             title: "rest",
             time: 4,
             exercices: [],
+          },
+          {
+            id: "work18",
+            title: "for time",
+            time: 12,
+            exercices: [
+              { id: "ex43", name: "Hang Power Snatches", reps: 30 },
+              { id: "ex44", name: "Lateral Burpees Over Bar", reps: 30 },
+            ],
           },
         ],
       },
       {
         title: "wod",
-        id: "wod9",
+        id: "wod10",
         works: [
           {
-            id: "work12",
+            id: "work19",
             title: "ot3m",
             time: 15,
             exercices: [
-              { id: "ex29", name: "Hang Squat Cleans", reps: 3 },
-              { id: "ex30", name: "Ring Muscle-Ups", reps: 2 },
+              { id: "ex45", name: "Hang Squat Cleans", reps: 3 },
+              { id: "ex46", name: "Ring Muscle-Ups", reps: 2 },
             ],
           },
           {
-            id: "rest8",
+            id: "rest10",
             title: "rest",
             time: 3,
             exercices: [],
           },
           {
-            id: "work13",
+            id: "work20",
             title: "ot3m",
             time: 15,
             exercices: [
-              { id: "ex31", name: "Squat Snatches", reps: 2 },
-              { id: "ex32", name: "Bar Muscle-Ups", reps: 3 },
+              { id: "ex47", name: "Squat Snatches", reps: 2 },
+              { id: "ex48", name: "Bar Muscle-Ups", reps: 3 },
             ],
           },
         ],
@@ -308,38 +345,73 @@ export const blocks: IBlock[] = [
     wods: [
       {
         title: "oly",
-        id: "wod10",
+        id: "wod11",
         works: [
           {
-            id: "work14",
+            id: "work21",
             title: "amrap",
             time: 20,
             exercices: [
-              { id: "ex33", name: "Thrusters", reps: 10 },
-              { id: "ex34", name: "Rowing", reps: 15 },
-              { id: "ex35", name: "Pull-Ups", reps: 8 },
+              { id: "ex49", name: "Thrusters", reps: 10 },
+              { id: "ex50", name: "Rowing", reps: 15 },
+              { id: "ex51", name: "Pull-Ups", reps: 8 },
+              { id: "ex52", name: "Power Cleans", reps: 6 },
+              { id: "ex53", name: "Toes to Bar", reps: 12 },
+              { id: "ex54", name: "Push Press", reps: 10 },
+              { id: "ex55", name: "Assault Bike", reps: 15 },
+              { id: "ex56", name: "Dips", reps: 8 },
             ],
           },
           {
-            id: "rest9",
+            id: "rest11",
             title: "rest",
             time: 5,
             exercices: [],
+          },
+          {
+            id: "work22",
+            title: "amrap",
+            time: 20,
+            exercices: [
+              { id: "ex57", name: "Front Squats", reps: 10 },
+              { id: "ex58", name: "Ski Erg", reps: 15 },
+              { id: "ex59", name: "Chin-Ups", reps: 8 },
+              { id: "ex60", name: "Push Jerks", reps: 6 },
+              { id: "ex61", name: "Knees to Elbows", reps: 12 },
+              { id: "ex62", name: "Overhead Squats", reps: 10 },
+              { id: "ex63", name: "Jump Rope", reps: 50 },
+              { id: "ex64", name: "Handstand Push-Ups", reps: 8 },
+            ],
           },
         ],
       },
       {
         title: "wod",
-        id: "wod11",
+        id: "wod12",
         works: [
           {
-            id: "work15",
+            id: "work23",
             title: "for time",
             time: 15,
             exercices: [
-              { id: "ex36", name: "Deadlifts", reps: 15 },
-              { id: "ex37", name: "Box Jumps", reps: 20 },
-              { id: "ex38", name: "Push Press", reps: 10 },
+              { id: "ex65", name: "Deadlifts", reps: 15 },
+              { id: "ex66", name: "Box Jumps", reps: 20 },
+              { id: "ex67", name: "Push Press", reps: 10 },
+            ],
+          },
+          {
+            id: "rest12",
+            title: "rest",
+            time: 4,
+            exercices: [],
+          },
+          {
+            id: "work24",
+            title: "ot3m",
+            time: 15,
+            exercices: [
+              { id: "ex68", name: "Power Snatches", reps: 2 },
+              { id: "ex69", name: "Chest-to-Bar Pull-Ups", reps: 3 },
             ],
           },
         ],
@@ -352,31 +424,61 @@ export const blocks: IBlock[] = [
     wods: [
       {
         title: "oly",
-        id: "wod12",
+        id: "wod13",
         works: [
           {
-            id: "work16",
+            id: "work25",
             title: "ot2m",
             time: 16,
             exercices: [
-              { id: "ex39", name: "Power Cleans", reps: 4 },
-              { id: "ex40", name: "Burpees", reps: 8 },
+              { id: "ex70", name: "Power Cleans", reps: 4 },
+              { id: "ex71", name: "Burpees", reps: 8 },
+            ],
+          },
+          {
+            id: "rest13",
+            title: "rest",
+            time: 4,
+            exercices: [],
+          },
+          {
+            id: "work26",
+            title: "ot3m",
+            time: 15,
+            exercices: [
+              { id: "ex72", name: "Hang Power Snatches", reps: 2 },
+              { id: "ex73", name: "Ring Muscle-Ups", reps: 3 },
             ],
           },
         ],
       },
       {
         title: "wod",
-        id: "wod13",
+        id: "wod14",
         works: [
           {
-            id: "work17",
+            id: "work27",
             title: "amrap",
             time: 12,
             exercices: [
-              { id: "ex41", name: "Wall Balls", reps: 20 },
-              { id: "ex42", name: "Kettlebell Swings", reps: 15 },
-              { id: "ex43", name: "Sit-Ups", reps: 10 },
+              { id: "ex74", name: "Wall Balls", reps: 20 },
+              { id: "ex75", name: "Kettlebell Swings", reps: 15 },
+              { id: "ex76", name: "Sit-Ups", reps: 10 },
+            ],
+          },
+          {
+            id: "rest14",
+            title: "rest",
+            time: 3,
+            exercices: [],
+          },
+          {
+            id: "work28",
+            title: "ot3m",
+            time: 15,
+            exercices: [
+              { id: "ex77", name: "Clean and Jerks", reps: 2 },
+              { id: "ex78", name: "Bar Muscle-Ups", reps: 3 },
             ],
           },
         ],
@@ -389,31 +491,61 @@ export const blocks: IBlock[] = [
     wods: [
       {
         title: "oly",
-        id: "wod14",
+        id: "wod15",
         works: [
           {
-            id: "work18",
+            id: "work29",
             title: "for time",
             time: 20,
             exercices: [
-              { id: "ex44", name: "Squat Cleans", reps: 10 },
-              { id: "ex45", name: "Muscle-Ups", reps: 5 },
-              { id: "ex46", name: "Overhead Lunges", reps: 20 },
+              { id: "ex79", name: "Squat Cleans", reps: 10 },
+              { id: "ex80", name: "Muscle-Ups", reps: 5 },
+              { id: "ex81", name: "Overhead Lunges", reps: 20 },
+            ],
+          },
+          {
+            id: "rest15",
+            title: "rest",
+            time: 4,
+            exercices: [],
+          },
+          {
+            id: "work30",
+            title: "ot3m",
+            time: 15,
+            exercices: [
+              { id: "ex82", name: "Hang Squat Snatches", reps: 2 },
+              { id: "ex83", name: "Chest-to-Bar Pull-Ups", reps: 3 },
             ],
           },
         ],
       },
       {
         title: "wod",
-        id: "wod15",
+        id: "wod16",
         works: [
           {
-            id: "work19",
+            id: "work31",
             title: "ot3m",
             time: 15,
             exercices: [
-              { id: "ex47", name: "Snatch", reps: 3 },
-              { id: "ex48", name: "Handstand Push-Ups", reps: 6 },
+              { id: "ex84", name: "Snatch", reps: 3 },
+              { id: "ex85", name: "Handstand Push-Ups", reps: 6 },
+            ],
+          },
+          {
+            id: "rest16",
+            title: "rest",
+            time: 4,
+            exercices: [],
+          },
+          {
+            id: "work32",
+            title: "ot3m",
+            time: 15,
+            exercices: [
+              { id: "ex86", name: "Power Cleans", reps: 2 },
+              { id: "ex87", name: "Ring Dips", reps: 3 },
             ],
           },
         ],
@@ -426,31 +558,61 @@ export const blocks: IBlock[] = [
     wods: [
       {
         title: "oly",
-        id: "wod16",
+        id: "wod17",
         works: [
           {
-            id: "work20",
+            id: "work33",
             title: "amrap",
             time: 15,
             exercices: [
-              { id: "ex49", name: "Deadlifts", reps: 10 },
-              { id: "ex50", name: "Box Jump Overs", reps: 15 },
-              { id: "ex51", name: "Dumbbell Snatches", reps: 20 },
+              { id: "ex88", name: "Deadlifts", reps: 10 },
+              { id: "ex89", name: "Box Jump Overs", reps: 15 },
+              { id: "ex90", name: "Dumbbell Snatches", reps: 20 },
+            ],
+          },
+          {
+            id: "rest17",
+            title: "rest",
+            time: 4,
+            exercices: [],
+          },
+          {
+            id: "work34",
+            title: "ot3m",
+            time: 15,
+            exercices: [
+              { id: "ex91", name: "Hang Power Cleans", reps: 2 },
+              { id: "ex92", name: "Toes to Bar", reps: 3 },
             ],
           },
         ],
       },
       {
         title: "wod",
-        id: "wod17",
+        id: "wod18",
         works: [
           {
-            id: "work21",
+            id: "work35",
             title: "for time",
             time: 12,
             exercices: [
-              { id: "ex52", name: "Thrusters", reps: 21 },
-              { id: "ex53", name: "Pull-Ups", reps: 21 },
+              { id: "ex93", name: "Thrusters", reps: 21 },
+              { id: "ex94", name: "Pull-Ups", reps: 21 },
+            ],
+          },
+          {
+            id: "rest18",
+            title: "rest",
+            time: 4,
+            exercices: [],
+          },
+          {
+            id: "work36",
+            title: "ot3m",
+            time: 15,
+            exercices: [
+              { id: "ex95", name: "Power Snatches", reps: 2 },
+              { id: "ex96", name: "Bar Muscle-Ups", reps: 3 },
             ],
           },
         ],
@@ -463,31 +625,61 @@ export const blocks: IBlock[] = [
     wods: [
       {
         title: "oly",
-        id: "wod18",
+        id: "wod19",
         works: [
           {
-            id: "work22",
+            id: "work37",
             title: "ot2m",
             time: 20,
             exercices: [
-              { id: "ex54", name: "Clean and Jerks", reps: 2 },
-              { id: "ex55", name: "Toes to Bar", reps: 10 },
+              { id: "ex97", name: "Clean and Jerks", reps: 2 },
+              { id: "ex98", name: "Toes to Bar", reps: 10 },
+            ],
+          },
+          {
+            id: "rest19",
+            title: "rest",
+            time: 4,
+            exercices: [],
+          },
+          {
+            id: "work38",
+            title: "ot3m",
+            time: 15,
+            exercices: [
+              { id: "ex99", name: "Hang Squat Cleans", reps: 2 },
+              { id: "ex100", name: "Ring Muscle-Ups", reps: 3 },
             ],
           },
         ],
       },
       {
         title: "wod",
-        id: "wod19",
+        id: "wod20",
         works: [
           {
-            id: "work23",
+            id: "work39",
             title: "amrap",
             time: 10,
             exercices: [
-              { id: "ex56", name: "Rowing", reps: 20 },
-              { id: "ex57", name: "Push-Ups", reps: 15 },
-              { id: "ex58", name: "Air Squats", reps: 25 },
+              { id: "ex101", name: "Rowing", reps: 20 },
+              { id: "ex102", name: "Push-Ups", reps: 15 },
+              { id: "ex103", name: "Air Squats", reps: 25 },
+            ],
+          },
+          {
+            id: "rest20",
+            title: "rest",
+            time: 4,
+            exercices: [],
+          },
+          {
+            id: "work40",
+            title: "ot3m",
+            time: 15,
+            exercices: [
+              { id: "ex104", name: "Power Cleans", reps: 2 },
+              { id: "ex105", name: "Chest-to-Bar Pull-Ups", reps: 3 },
             ],
           },
         ],
@@ -500,30 +692,60 @@ export const blocks: IBlock[] = [
     wods: [
       {
         title: "oly",
-        id: "wod20",
+        id: "wod21",
         works: [
           {
-            id: "work24",
+            id: "work41",
             title: "for time",
             time: 15,
             exercices: [
-              { id: "ex59", name: "Power Snatches", reps: 30 },
-              { id: "ex60", name: "Double-Unders", reps: 60 },
+              { id: "ex106", name: "Power Snatches", reps: 30 },
+              { id: "ex107", name: "Double-Unders", reps: 60 },
+            ],
+          },
+          {
+            id: "rest21",
+            title: "rest",
+            time: 4,
+            exercices: [],
+          },
+          {
+            id: "work42",
+            title: "ot3m",
+            time: 15,
+            exercices: [
+              { id: "ex108", name: "Hang Power Cleans", reps: 2 },
+              { id: "ex109", name: "Bar Muscle-Ups", reps: 3 },
             ],
           },
         ],
       },
       {
         title: "wod",
-        id: "wod21",
+        id: "wod22",
         works: [
           {
-            id: "work25",
+            id: "work43",
             title: "ot3m",
             time: 18,
             exercices: [
-              { id: "ex61", name: "Front Squats", reps: 5 },
-              { id: "ex62", name: "Chest-to-Bar Pull-Ups", reps: 7 },
+              { id: "ex110", name: "Front Squats", reps: 5 },
+              { id: "ex111", name: "Chest-to-Bar Pull-Ups", reps: 7 },
+            ],
+          },
+          {
+            id: "rest22",
+            title: "rest",
+            time: 4,
+            exercices: [],
+          },
+          {
+            id: "work44",
+            title: "ot3m",
+            time: 15,
+            exercices: [
+              { id: "ex112", name: "Squat Snatches", reps: 2 },
+              { id: "ex113", name: "Ring Muscle-Ups", reps: 3 },
             ],
           },
         ],
@@ -536,31 +758,61 @@ export const blocks: IBlock[] = [
     wods: [
       {
         title: "oly",
-        id: "wod22",
+        id: "wod23",
         works: [
           {
-            id: "work26",
+            id: "work45",
             title: "amrap",
             time: 20,
             exercices: [
-              { id: "ex63", name: "Hang Power Cleans", reps: 8 },
-              { id: "ex64", name: "Burpees over the bar", reps: 8 },
+              { id: "ex114", name: "Hang Power Cleans", reps: 8 },
+              { id: "ex115", name: "Burpees over the bar", reps: 8 },
+            ],
+          },
+          {
+            id: "rest23",
+            title: "rest",
+            time: 4,
+            exercices: [],
+          },
+          {
+            id: "work46",
+            title: "ot3m",
+            time: 15,
+            exercices: [
+              { id: "ex116", name: "Power Snatches", reps: 2 },
+              { id: "ex117", name: "Chest-to-Bar Pull-Ups", reps: 3 },
             ],
           },
         ],
       },
       {
         title: "wod",
-        id: "wod23",
+        id: "wod24",
         works: [
           {
-            id: "work27",
+            id: "work47",
             title: "for time",
             time: 12,
             exercices: [
-              { id: "ex65", name: "Kettlebell Swings", reps: 50 },
-              { id: "ex66", name: "Box Jumps", reps: 40 },
-              { id: "ex67", name: "Pull-Ups", reps: 30 },
+              { id: "ex118", name: "Kettlebell Swings", reps: 50 },
+              { id: "ex119", name: "Box Jumps", reps: 40 },
+              { id: "ex120", name: "Pull-Ups", reps: 30 },
+            ],
+          },
+          {
+            id: "rest24",
+            title: "rest",
+            time: 4,
+            exercices: [],
+          },
+          {
+            id: "work48",
+            title: "ot3m",
+            time: 15,
+            exercices: [
+              { id: "ex121", name: "Clean and Jerks", reps: 2 },
+              { id: "ex122", name: "Bar Muscle-Ups", reps: 3 },
             ],
           },
         ],
@@ -573,31 +825,61 @@ export const blocks: IBlock[] = [
     wods: [
       {
         title: "oly",
-        id: "wod24",
+        id: "wod25",
         works: [
           {
-            id: "work28",
+            id: "work49",
             title: "ot2m",
             time: 16,
             exercices: [
-              { id: "ex68", name: "Squat Snatches", reps: 3 },
-              { id: "ex69", name: "Bar Muscle-Ups", reps: 2 },
+              { id: "ex123", name: "Squat Snatches", reps: 3 },
+              { id: "ex124", name: "Bar Muscle-Ups", reps: 2 },
+            ],
+          },
+          {
+            id: "rest25",
+            title: "rest",
+            time: 4,
+            exercices: [],
+          },
+          {
+            id: "work50",
+            title: "ot3m",
+            time: 15,
+            exercices: [
+              { id: "ex125", name: "Hang Power Cleans", reps: 2 },
+              { id: "ex126", name: "Ring Dips", reps: 3 },
             ],
           },
         ],
       },
       {
         title: "wod",
-        id: "wod25",
+        id: "wod26",
         works: [
           {
-            id: "work29",
+            id: "work51",
             title: "amrap",
             time: 15,
             exercices: [
-              { id: "ex70", name: "Deadlifts", reps: 12 },
-              { id: "ex71", name: "Hand Release Push-Ups", reps: 15 },
-              { id: "ex72", name: "Box Step-Ups", reps: 20 },
+              { id: "ex127", name: "Deadlifts", reps: 12 },
+              { id: "ex128", name: "Hand Release Push-Ups", reps: 15 },
+              { id: "ex129", name: "Box Step-Ups", reps: 20 },
+            ],
+          },
+          {
+            id: "rest26",
+            title: "rest",
+            time: 4,
+            exercices: [],
+          },
+          {
+            id: "work52",
+            title: "ot3m",
+            time: 15,
+            exercices: [
+              { id: "ex130", name: "Power Snatches", reps: 2 },
+              { id: "ex131", name: "Toes to Bar", reps: 3 },
             ],
           },
         ],
@@ -610,31 +892,62 @@ export const blocks: IBlock[] = [
     wods: [
       {
         title: "oly",
-        id: "wod26",
+        id: "wod27",
         works: [
           {
-            id: "work30",
+            id: "work53",
             title: "for time",
             time: 20,
             exercices: [
-              { id: "ex73", name: "Clean and Jerks", reps: 15 },
-              { id: "ex74", name: "Ring Dips", reps: 30 },
-              { id: "ex75", name: "Wall Balls", reps: 45 },
+              { id: "ex132", name: "Clean and Jerks", reps: 15 },
+              { id: "ex133", name: "Ring Dips", reps: 30 },
+              { id: "ex134", name: "Wall Balls", reps: 45 },
+            ],
+          },
+          {
+            id: "rest27",
+            title: "rest",
+            time: 4,
+            exercices: [],
+          },
+          {
+            id: "work54",
+            title: "ot3m",
+            time: 15,
+            exercices: [
+              { id: "ex135", name: "Hang Squat Snatches", reps: 2 },
+              { id: "ex136", name: "Chest-to-Bar Pull-Ups", reps: 3 },
             ],
           },
         ],
       },
       {
         title: "wod",
-        id: "wod27",
+        id: "wod28",
         works: [
           {
-            id: "work31",
+            id: "work55",
             title: "ot3m",
             time: 15,
             exercices: [
+              { id: "ex137", name: "Thrusters", reps: 7 },
               { id: "ex76", name: "Thrusters", reps: 7 },
               { id: "ex77", name: "Rowing", reps: 15 },
+            ],
+          },
+          {
+            id: "rest7",
+            title: "rest",
+            time: 4,
+            exercices: [],
+          },
+          {
+            id: "work13",
+            title: "ot3m",
+            time: 15,
+            exercices: [
+              { id: "ex31", name: "Squat Snatches", reps: 2 },
+              { id: "ex32", name: "Bar Muscle-Ups", reps: 3 },
             ],
           },
         ],
@@ -659,6 +972,21 @@ export const blocks: IBlock[] = [
               { id: "ex80", name: "Toes to Bar", reps: 9 },
             ],
           },
+          {
+            id: "rest7",
+            title: "rest",
+            time: 4,
+            exercices: [],
+          },
+          {
+            id: "work13",
+            title: "ot3m",
+            time: 15,
+            exercices: [
+              { id: "ex31", name: "Squat Snatches", reps: 2 },
+              { id: "ex32", name: "Bar Muscle-Ups", reps: 3 },
+            ],
+          },
         ],
       },
       {
@@ -672,6 +1000,21 @@ export const blocks: IBlock[] = [
             exercices: [
               { id: "ex81", name: "Burpees", reps: 50 },
               { id: "ex82", name: "Double-Unders", reps: 100 },
+            ],
+          },
+          {
+            id: "rest7",
+            title: "rest",
+            time: 4,
+            exercices: [],
+          },
+          {
+            id: "work13",
+            title: "ot3m",
+            time: 15,
+            exercices: [
+              { id: "ex31", name: "Squat Snatches", reps: 2 },
+              { id: "ex32", name: "Bar Muscle-Ups", reps: 3 },
             ],
           },
         ],
