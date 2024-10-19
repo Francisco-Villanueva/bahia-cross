@@ -1,64 +1,56 @@
 import { MainLayout } from "@/components";
+import { blocks } from "@/mocks";
 
-type IExercice = {
-  name: string;
-  video?: string;
-  description?: string;
-  id?: string;
-};
-
-type IBLock = {
-  exercice: IExercice;
-  duration: number;
-  percent?: number;
-  id: string;
-};
-type IWodType = "otm" | "ot2m" | "ot3m" | "amrap" | "time cap";
-type IWodPart = {
-  blocks: IBLock[];
-  type: IWodType;
-  title: string;
-  duration: number;
-  id: string;
-};
 export default function Home() {
-  const exercice: IExercice = {
-    name: "BMU",
-  };
-  const block: IBLock = {
-    duration: 1,
-    exercice,
-    id: "tuMama",
-    percent: 60,
-  };
-  const wodPart: IWodPart = {
-    blocks: [{ ...block }],
-    duration: 6,
-    id: "asdasdasdas",
-    title: "OLY",
-    type: "ot2m",
-  };
-
-  const test: IWodPart[] = [wodPart];
   return (
     <MainLayout>
-      <h2>Bahia cross</h2>
-      {test.map((value) => (
-        <div className="bg-gray-100  text-primary rounded-md p-4">
-          <b>{value.title}</b>
-          m
-          <hr />
-          <b className="uppercase">{value.type}</b>
-          <p>{value.duration}</p>
-          <div>
-            {value.blocks.map((block) => (
+      <div className="">
+        {blocks.map((day) => (
+          <div className=" rounded-md my-2 ">
+            <section className="font-bold rounded-t-md  flex justify-between ">
+              <h2>Bahia cross</h2>
               <div>
-                <p>{block.exercice.name}</p>
+                <span> {new Date(day.day).toLocaleDateString()}</span>
               </div>
-            ))}
+            </section>
+            <div className=" flex items-start   gap-4">
+              {day.wods.map((wod) => (
+                <div className="w-full  py-2 rounded-md  bg-white">
+                  <div className=" uppercase flex justify-center text-primary font-bold p-2">
+                    <h2 className="text-xl">{wod.title}</h2>
+                  </div>
+                  <section className="">
+                    {wod.works.map((work) => (
+                      <div className="p-2 space-y-1   rounded-md ">
+                        <div
+                          className={`flex gap-2 text-lg px-2 ${
+                            work.title === "rest"
+                              ? "text-orange-600 bg-orange-200 rounded-md  justify-center"
+                              : ""
+                          }`}
+                        >
+                          <p className="uppercase ">{work.title}</p>
+                          <p>{work.time}'</p>
+                        </div>
+
+                        {work.exercices.length === 0 ? null : <hr />}
+                        <div className="px-4">
+                          {work.exercices.map((exercice) => (
+                            <div className="flex gap-2">
+                              <p> {exercice.reps}</p>
+                              <p> {exercice.name}</p>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    ))}
+                  </section>
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </MainLayout>
   );
 }
