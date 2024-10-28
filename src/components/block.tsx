@@ -7,9 +7,11 @@ interface BlockProps {
 
 const Block: React.FC<BlockProps> = ({ block }) => {
     return (
-        <div className='flex space-x-10 uppercase '>
+        <div className='flex align-items w-full h-full p-4 gap-5'>
             {block.wods.map((wod) => (
-                <Wod key={wod.id} wod={wod} />
+                <div key={wod.id} className='  bg-gray-950 border rounded w-full h-full'>
+                    <Wod wod={wod} />
+                </div>
             ))}
         </div>
     )

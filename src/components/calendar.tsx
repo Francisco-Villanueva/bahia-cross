@@ -36,11 +36,10 @@ export function CalendarDemo() {
                     {wod.works.map((work) => (
                       <div className="p-2 space-y-1   rounded-md ">
                         <div
-                          className={`flex gap-2 text-lg px-2 ${
-                            work.title === "rest"
+                          className={`flex gap-2 text-lg px-2 ${work.title === "rest"
                               ? "text-orange-600 bg-orange-200 rounded-md  justify-center"
                               : ""
-                          }`}
+                            }`}
                         >
                           <p className="uppercase ">{work.title}</p>
                           <p>{work.time}'</p>
