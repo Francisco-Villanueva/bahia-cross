@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <MainLayout>
       <Provider>
-        <div className="flex flex-col ml-36 mr-36">
-          <div className="flex text-3xl text-[#1f336d] space-x-24 ml-4" >
+        <div className="flex flex-col mx-36">
+          <div className="flex text-3xl text-[#1f336d] gap-24 ml-4" >
             <img src="favicon.ico" alt="" />
             <h2 className="">Bahia cross</h2>
           </div>

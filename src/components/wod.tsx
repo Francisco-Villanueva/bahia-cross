@@ -9,7 +9,7 @@ interface WodProps {
 const Wod: React.FC<WodProps> = ({ wod }) => {
     return (
         <div className="flex flex-col w-full">
-            <h3 className="text-[white] text-center font-bold uppercase mt-2">{wod.title}</h3>
+            <h3 className="text-[#fff] text-center font-bold uppercase mt-2">{wod.title}</h3>
             <div>
                 {wod.works.map((work) => (
                     <div className="flex space-x-2">
