@@ -4,7 +4,7 @@ interface ExerciceProps {
     exercice: IExercice
 }
 
-const Exercice: React.FC<ExerciceProps> = ({ exercice }) => {
+export default function Exercice({ exercice }: ExerciceProps) {
     return (
         <div>
             <div className='flex flex-row gap-2 ml-4'>
@@ -20,5 +20,3 @@ const Exercice: React.FC<ExerciceProps> = ({ exercice }) => {
         </div>
     )
 }
-
-export default Exercice;

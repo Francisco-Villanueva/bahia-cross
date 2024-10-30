@@ -6,7 +6,7 @@ interface WodProps {
     wod: IWod
 }
 
-const Wod: React.FC<WodProps> = ({ wod }) => {
+export default function ({ wod }: WodProps) {
     return (
         <div className="flex flex-col w-full">
             <h3 className="text-[#fff] text-center font-bold uppercase mt-2">{wod.title}</h3>
@@ -20,5 +20,3 @@ const Wod: React.FC<WodProps> = ({ wod }) => {
         </div>
     )
 }
-
-export default Wod;

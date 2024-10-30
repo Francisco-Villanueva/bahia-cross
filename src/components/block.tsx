@@ -5,7 +5,7 @@ interface BlockProps {
     block: IBlock
 }
 
-const Block: React.FC<BlockProps> = ({ block }) => {
+export default function Block({ block }: BlockProps) {
     return (
         <div className='flex align-items w-full h-full p-4 gap-5'>
             {block.wods.map((wod) => (
@@ -16,5 +16,3 @@ const Block: React.FC<BlockProps> = ({ block }) => {
         </div>
     )
 }
-
-export default Block;
