@@ -29,7 +29,7 @@ export default function Home() {
                   <Block key={block.id} block={block} />
                 </div>
               </div>
-            ))}
+            ))[5]}
           </div>
         </div>
       </Provider>
