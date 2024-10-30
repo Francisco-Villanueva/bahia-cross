@@ -5,7 +5,7 @@ interface WorkProps {
     work: IWork,
 }
 
-const Work: React.FC<WorkProps> = ({ work }) => {
+export default function Work({ work }: WorkProps) {
     return (
         <div className="text-[#fff] space-y-2 m-3 w-full">
             {work.title === "rest" ? (
@@ -32,5 +32,3 @@ const Work: React.FC<WorkProps> = ({ work }) => {
         </div>
     )
 }
-
-export default Work
