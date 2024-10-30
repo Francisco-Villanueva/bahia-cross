@@ -12,14 +12,14 @@ const Work: React.FC<WorkProps> = ({ work }) => {
                 <div className='flex justify-center w-full'>
                     <div className="w-full text-center bg-[#9CA3AF] rounded h-10 flex items-center justify-center uppercase">
                         <h2>{work.title}</h2>
-                        <p className='ml-2'>{work.time}'</p>
+                        <p className='ml-2'>{work.time}&apos;</p>
                     </div>
                 </div>
             ) : (
                 <div className='text-[#fff] uppercase'>
                     <div className="flex flex-row gap-2">
                         <h2>{work.title}</h2>
-                        <p>{work.time}'</p>
+                        <p>{work.time}&apos;</p>
                     </div>
                     <hr className='w-full border-[#D1D5DB] mt-1' />
                 </div>
