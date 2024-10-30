@@ -7,7 +7,7 @@ interface ExerciceProps {
 const Exercice: React.FC<ExerciceProps> = ({ exercice }) => {
     return (
         <div>
-            <div className='flex flex-row space-x-2'>
+            <div className='flex flex-row gap-2 ml-4'>
                 <h3>{exercice.name}</h3>
                 <p>{exercice.reps}</p>
             </div>
