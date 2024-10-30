@@ -5,7 +5,7 @@ interface WorkProps {
     work: IWork,
 }
 
-export default function ({ work }: WorkProps) {
+export default function Work({ work }: WorkProps) {
     return (
         <div className="text-[#fff] space-y-2 m-3 w-full">
             {work.title === "rest" ? (
