@@ -12,7 +12,7 @@ const Wod: React.FC<WodProps> = ({ wod }) => {
             <h3 className="text-[#fff] text-center font-bold uppercase mt-2">{wod.title}</h3>
             <div>
                 {wod.works.map((work) => (
-                    <div className="flex space-x-2">
+                    <div key={work.id} className="flex space-x-2">
                         <Work key={work.id} work={work} />
                     </div>
                 ))}
